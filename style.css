@@ -1,0 +1,95 @@
+header {
+	background: red;
+	width: 100%;
+	height: 298px;
+}
+
+.asses {
+	background: url(asses.png);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 400px;
+	top: -94px;
+}
+
+.only-one {
+	position: relative;
+	width: 886px;
+	height: 109px;
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blur {
+	background: linear-gradient(93.49deg, rgba(255, 255, 255, 0.5) 15.43%, rgba(255, 255, 255, 0) 99.38%);
+	backdrop-filter: blur(8px);
+	border-radius: 50px;
+}
+
+.only-one-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #5D1EAD;
+
+	position: absolute; 
+   	top: 50%;
+   	transform: translate(10%, -60%);
+}
+
+.only-two-text {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #5D1EAD;
+
+	position: absolute; 
+   	top: 50%;
+   	transform: translate(10%, -60%);
+}
+
+.low-left-blocks {
+	position: relative;
+	width: 200px;
+	height: 100px;
+
+	display: block;
+    margin-left: 10%;
+    margin-right: auto;
+}
+
+.low-right-blocks {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	top: -100px;
+
+	display: block;
+    margin-right: 10%;
+    margin-left: auto;
+}
+
+section {
+	background: black;
+	width: 100%;
+	height: 635px;
+}
+
+footer {
+	background: #C4C4C4;
+	width: 100%;
+	height: 91px;
+}
+
+body {
+  background-color: lightblue;
+}
